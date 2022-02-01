@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcCacheService", "GrpcCacheService\GrpcCacheService.csproj", "{1485D287-D0DF-464C-8D8B-7D21D176119B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1485D287-D0DF-464C-8D8B-7D21D176119B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1485D287-D0DF-464C-8D8B-7D21D176119B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1485D287-D0DF-464C-8D8B-7D21D176119B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1485D287-D0DF-464C-8D8B-7D21D176119B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10778C4F-13AA-4850-9107-62A23984BE1A}
+	EndGlobalSection
+EndGlobal

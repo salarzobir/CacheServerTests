@@ -1,0 +1,39 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "GrpcCacheService";
+
+package cache;
+
+// The cache service definition.
+service Cache {
+  // Get a cache item by key
+  rpc Get (GetRequest) returns (GetReply);
+
+  // Set a cache item
+  rpc Set (SetRequest) returns (google.protobuf.Empty);
+
+  // Set a cache item
+  rpc Remove (RemoveRequest) returns (google.protobuf.Empty);
+}
+
+// The request message containing the key.
+message GetRequest {
+  string key = 1;
+}
+
+// The response message containing the value.
+message GetReply {
+  string value = 1;
+}
+
+// The request message containing the key.
+message SetRequest {
+  string key = 1;
+  string value = 2;
+}
+
+// The request message containing the key.
+message RemoveRequest {
+  string key = 1;
+}
